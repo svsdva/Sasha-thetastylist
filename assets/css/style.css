@@ -41,10 +41,15 @@ body {
 
 #row2_list {
     list-style-type: none;
+    line-height: 1.5;
+}
+
+#row2_list li {
+    margin: 2%;
 }
 
 #row2_list li:before {
-    content: "- ";
+    content: "⚜ ";
 }
 
 #row3 {
@@ -53,6 +58,12 @@ body {
 
 .row_text {
     display: none;
+
+}
+
+.bold {
+    font-weight: 900;
+    color: #7b0323;
 }
 
 #connect,
@@ -62,6 +73,11 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+#row1_text {
+    text-indent: 7%;
+    padding: 2%
 }
 
 #row3_text {
@@ -108,19 +124,18 @@ body {
     }
 
     #name {
-        font-size: 400%;
+        font-size: 300%;
     }
 
     .row {
         height: 100%;
         width: 100%;
-        font-size: 400%
+        font-size: 300%
     }
 
     .row_text {
-        padding-left: 2%;
-        text-align: left;
-        font-size: 400%;
+        text-align: justify;
+        font-size: 250%;
         width: 100%;
     }
 
@@ -135,7 +150,7 @@ body {
 
     #sep2,
     #sep3 {
-        font-size: 405%;
+        font-size: 305%;
     }
 
     #whatsapp,
@@ -171,7 +186,6 @@ body {
     }
 
     .row_text {
-        text-align: justify;
         font-size: 100%;
         width: 50%;
     }
