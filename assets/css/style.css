@@ -132,7 +132,9 @@ body {
     .row {
         height: 100%;
         width: 100%;
-        font-size: 300%
+        font-size: 300%;
+        background-color: #7b0323;
+        opacity: 65%;
     }
 
     .row_text {
